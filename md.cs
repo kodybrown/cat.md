@@ -33,6 +33,9 @@ namespace cat.md
 {
 	public class md : ICataloger
 	{
+		public string Name { get { return _name; } }
+		private string _name = "markdown";
+
 		public string Description { get { return _description; } }
 		private string _description = "Formatted Markdown (.md).";
 
